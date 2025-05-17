@@ -16,8 +16,10 @@ export class BlogpostListComponent implements OnInit {
 
   }
   
-  ngOnInit(): void {  
-   this.blogPost$ =  this.blogpostService.getAllBlogPosts();
+  ngOnInit(): void {
+    this.blogPost$ = this.blogpostService.getAllBlogPosts();
+  
   }
+  
 
 }
